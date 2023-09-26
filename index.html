@@ -1,0 +1,44 @@
+//HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div id="main">
+        <div id="formCreat">
+            <div id="name">
+                <h1><span>R</span>egister</h1>
+            </div>
+            <div id="form">
+                <input type="text" placeholder="First Name" id="firstName">
+                <input type="text" placeholder="Last Name" id="lastName">
+                <input type="text" placeholder="Email Address" id="LastName">
+                <input type="text" placeholder="Username" id="username">
+                <div class="conform"> <input type="password" placeholder="Password" id="password"><i class="ri-eye-off-fill eye"></i></div>
+                <div class="conform">
+                    <input type="password" placeholder="Confirm password" id="conformPassword"><i class="ri-eye-off-fill show"></i>
+                </div>
+                <div id="checkBox">
+                    <input type="checkbox" id="checkbox">
+                    <span> I Agree to the Terms and Conditions</span>
+                </div>
+                <button id="btn">Sign Up</button>
+            </div>
+        </div>
+        <div id="formResponce">
+             <div id="circle"><i class="ri-check-fill"></i></div>
+             <h3>Congratulations! Dear <span></span> you are suitable for this website. You can continue this.</h3>
+             <div id="butn">
+                <button><i class="ri-arrow-left-line back">Back</i></button>
+                <button class="continue">Continue<i class="ri-arrow-right-line"></i></button>
+             </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

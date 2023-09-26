@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color:#000000;
+    font-family: 'Poppins';
+}
+html,body{
+    width:100%; 
+    height: 100%;
+    background-color: #000;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(120deg,rgba(248, 14, 197, 0.7),rgba(103, 137, 211, 0.7),rgb(0,255,0,0.7));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#formCreat{
+    width: 300px;
+    height: 460px;
+    /* background-color: #fff; */
+    align-items: center;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    /* box-shadow: -3px 3px 5px #ffffffff; */
+}
+#name{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 12px 80px;
+    background-color:rgb(62, 69, 66);
+    /* box-shadow: 3px -3px 5px #ffffffff; */
+}
+#name h1{
+    color: #ffff;
+    text-shadow: 5px 5px 7px rgba(247, 247, 250, 0.5);
+}
+#name h1 span{
+    color:greenyellow;
+}
+#form{
+    width: 100%;
+    height:86.3%;
+    background-color: gray;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    text-align: center;
+    /* box-shadow: 3px 3px 5px #ffffffff; */
+}
+#form input{
+    margin-top: 20px;
+    width: 80%;
+    height: 30px;
+    color: #ffffffff;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+#form input::placeholder{
+    padding-left: 0px;
+    color: #ffffff;
+}
+.conform{
+    position: relative;
+}
+.conform i{
+    top: 27px;
+    left: 250px;
+    position: absolute;
+    color: #ffff;
+    cursor: pointer;
+}
+#checkBox{
+    display: flex;
+    position: relative;
+}
+#checkBox span{
+    position: absolute;
+    top: 12px;
+    left: 70px;
+    font-size: 10px;
+    font-weight: 600;
+    color: #fff;
+}
+#checkBox input{
+    margin-top: 5px;
+    margin-left: 45px;
+    cursor: pointer;
+    width: 12px;
+}
+#btn{
+    padding: 8px 25px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    background:rgb(62, 69, 66);
+    margin-top: 10px;
+    border-radius: 10px;
+    outline: none;
+    /* border: 1px solid #fff; */
+    transition: all 0.2s;
+    /* box-shadow: 1px 1px 2px rgba(254, 254, 255, 0.5); */
+}
+#btn:hover{
+    border: 1px solid transparent;
+    background:linear-gradient(180deg ,rgb(51, 42, 51),green);
+}
+/* when press sign up -> then display it */
+
+#formResponce{
+    width: 400px;
+    height: 300px;
+    /* background-color:#fff; */
+    border-radius: 5px;
+    /* border: 1px solid #fff; */
+    display: none;
+    text-align: center;
+}
+
+#formResponce #circle{
+    margin-top: 10px;
+    margin-left: 145px;
+    width: 100px;
+    height:100px; 
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+}
+#formResponce #circle i{
+    font-size: 70px;
+    color: #ffffffff;
+}
+#formResponce h3{
+    margin-top: 35px;
+}
+#butn{
+    display: flex;
+    gap: 100px;
+}
+#butn button{
+    padding: 10px 22px;
+    outline: none;
+    font-size: 20px;
+    border: 1px solid transparent;
+    margin-top: 40px;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+#butn button:nth-child(1){
+    background-color: black;
+}
+#butn button:nth-child(1) i{
+    color: #ffff;
+}
+#butn button:nth-child(2){
+    background-color:orange;
+    color: #ffffffff;
+}
+#butn button:nth-child(2) i{
+    color: #ffff;
+    font-weight: 600;
+}
